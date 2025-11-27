@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/nginx.conf">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/nginx.conf" />
+              <option name="updatedContent" value="server {&#10;  listen 80;&#10;  server_name localhost;&#10;&#10;  root /usr/share/nginx/html;&#10;  index index.html;&#10;&#10;  location / {&#10;    try_files $uri $uri/ /index.html;&#10;  }&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
