@@ -1,6 +1,6 @@
 # Stage 1: Build the Vite/React app
 FROM node:20 AS builder
-WORKDIR /app
+WORKDIR /src
 COPY package.json package-lock.json* yarn.lock* ./
 RUN npm install
 COPY . .
